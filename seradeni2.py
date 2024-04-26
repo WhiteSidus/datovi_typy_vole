@@ -1,4 +1,4 @@
-pole1 = [3,2,1,5,4]
+pole1 = [3, 2, 1, 5, 4]
 
 def seradit(pole):
     for i in range(len(pole)):
@@ -9,4 +9,4 @@ def seradit(pole):
         pole[i], pole[min_index] = pole[min_index], pole[i]
 
 seradit(pole1)
-print (pole1)
+print(pole1)
